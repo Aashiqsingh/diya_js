@@ -1,0 +1,49 @@
+What is javascript?
+-> javascript is a programming language. it is used to create dynamic web pages.
+
+Programming language : programming language is a set of instruction given to perform specific task.
+void main()
+ex : c , c++ , java
+
+
+scripting language: scriptting language is a subset of programming language.
+single line of code
+ex : javascript , python
+
+
+static page: when you declare a variable you need to define data type
+int a = 10;
+dynamic page: no data type required
+a = 10;
+
+
+javascript have no data type
+
+
+history of javascript: 
+javascript was created in 1995 by breden eich Netscape Communications.
+
+
+where is javascript run?
+- Browser / client side 
+
+
+JavaScript engins:
+
+browser  engine        compnay
+firefox spider monkey   mozilla
+chrome  v8              google  -- 
+safari  nitro           apple
+edge   chakra          microsoft
+
+
+There are three ways to js.
+1. external [.js] 
+2. internal <script>
+3. inline 
+
+
+There are three keyword 
+1. var - global scope 
+2. let -- block scope 
+3  const -- block scope -- can't change the value 
