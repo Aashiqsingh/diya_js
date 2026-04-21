@@ -47,3 +47,11 @@ There are three keyword
 1. var - global scope 
 2. let -- block scope 
 3  const -- block scope -- can't change the value 
+
+
+There are 5 operators
+1. Arithmatic Operators : + , - , * , / , %
+2. Assignment Operators : = , (+= , -= , *= , /= , %=) - short hand properties
+3. Comparison Operators/relational operators : == , === , != , !== , < , > , <= , >=
+4. Logical Operators : && , || , !
+5. bitwise Operators : & , | , ^

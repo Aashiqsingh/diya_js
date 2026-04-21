@@ -1,0 +1,16 @@
+Thera four types of function
+1. without return without argument
+2. without return with argument
+3. with return without argument
+4. with return with argument
+
+void student(){
+
+}
+
+
+student()
+
+
+js : 
+function --> keyword
