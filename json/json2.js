@@ -3,7 +3,7 @@ let product = {
     price:100000,
     discount:1000,
     IsAvailable:true,
-    color:["red","blue","black"],
+    color:["red","blue","black"]
     features:{
         camera:"12mp",
         ram:"8gb",
