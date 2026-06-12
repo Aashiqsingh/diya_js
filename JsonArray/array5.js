@@ -131,10 +131,64 @@ var company = [
 ]
 
 // 1.  Find the total number of employees in all companies.
+
+// let count = 0;
+// company.forEach((comp)=>{
+//     count += comp.employees.length
+// })
+// console.log(count);
+
+
+
+// let x = company.reduce((count,comp)=> count + comp.employees.length,0)
+// console.log(x);
+
+// let x = company.reduce((count,comp)=>{
+//     return count + comp.employees.length
+// },0)
+// console.log(x);
+
+
 // 2. Find the company where the employee named "riya" works.
 // 3. Calculate the average salary of employees across all companies.
+
+// let ans = company.map((comp)=>{
+//     return comp.employees.reduce((avg,emp)=>{
+//         return avg + emp.salary/comp.employees.length
+//     },0)
+// }).reduce((sum,emp)=>{
+//     return sum + emp / company.length
+// },0)
+// console.log(ans);
+
+// let ans = company.map((comp)=>{
+//     return comp.employees.reduce((avg,emp)=>{
+//         return avg + emp.salary/comp.employees.length
+//     },0)
+// })
+// console.log(ans);
+
+
 // 4. Find the names of all employees who are married.
 //  5. Count the total number of children across all employees
+
+
+// let ans = company.map((comp)=>{
+//     return comp.employees.reduce((count,emp)=>{
+//         return count + emp.child
+//     },0)
+// }).reduce((count,emp)=>{
+//     return count + emp
+// },0)
+// console.log(ans);
+
+
+// let ans = company.map(comp =>
+//     comp.employees.reduce((count, emp) => count + emp.child, 0)
+// );
+
+// console.log(ans);
+
 //  7. List all female employees.
 //  8. Count how many employees are not married.
 //  9. Find the email addresses of all employees earning more than 30,000.
